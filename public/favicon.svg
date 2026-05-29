@@ -1,0 +1,62 @@
+<svg
+  width="64"
+  height="64"
+  viewBox="0 0 64 64"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Background -->
+  <rect
+    width="64"
+    height="64"
+    rx="20"
+    fill="#0F172A"
+  />
+
+  <!-- Premium Glow -->
+  <circle
+    cx="32"
+    cy="32"
+    r="24"
+    fill="url(#glow)"
+    opacity="0.18"
+  />
+
+  <!-- Stylized M -->
+  <path
+    d="M18 45V20.5C18 19.67 18.67 19 19.5 19H22.8C23.5 19 24.12 19.44 24.35 20.1L32 39.8L39.65 20.1C39.88 19.44 40.5 19 41.2 19H44.5C45.33 19 46 19.67 46 20.5V45"
+    stroke="white"
+    stroke-width="4.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Celebration Accent -->
+  <circle
+    cx="46"
+    cy="17"
+    r="3"
+    fill="#E8D39F"
+  />
+
+  <!-- Tiny Spark -->
+  <path
+    d="M14 18L15.2 14L16.4 18L20 19.2L16.4 20.4L15.2 24L14 20.4L10.4 19.2L14 18Z"
+    fill="#F6E7C1"
+    opacity="0.9"
+  />
+
+  <defs>
+    <radialGradient
+      id="glow"
+      cx="0"
+      cy="0"
+      r="1"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(32 32) rotate(90) scale(24)"
+    >
+      <stop stop-color="#F4C6FF"/>
+      <stop offset="1" stop-color="#F4C6FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
